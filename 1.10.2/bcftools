@@ -1,0 +1,11 @@
+#!/bin/bash
+
+if [ ! $(command -v singularity) ]; then
+	module load singularity/3.6.3
+fi
+
+VERSION=1.10.2
+DIRECTORY=/opt/packages/bcftools/$VERSION
+
+singularity exec -B /pylon5 $DIRECTORY/singularity-bcftools-$VERSION.sif bcftools "$@"
+
