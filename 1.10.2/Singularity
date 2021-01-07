@@ -1,0 +1,13 @@
+Bootstrap: docker
+From: quay.io/biocontainers/bcftools:1.10.2--h4f4756c_2
+
+%labels
+    AUTHOR icaoberg
+    EMAIL icaoberg@psc.edu
+    WEBSITE https://gitlab.psc.edu/icaoberg/singularity-bcftools
+    VERSION 1.10.2
+
+%post
+   rm /etc/resolv.conf
+
+####################################################################################
