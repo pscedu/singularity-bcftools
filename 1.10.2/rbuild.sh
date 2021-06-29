@@ -3,7 +3,7 @@
 # Copyright © 2021 Pittsburgh Supercomputing Center.
 # All Rights Reserved.
 
-IMAGE=singularity-gent-1.10.2.sif
+IMAGE=singularity-bcftools-1.10.2.sif
 DEFINITION=Singularity
 
 if [ -f $IMAGE ]; then
