@@ -1,4 +1,5 @@
 ![Status](https://github.com/pscedu/singularity-bcftools/actions/workflows/main.yml/badge.svg)
+![Status](https://github.com/pscedu/singularity-bcftools/actions/workflows/pretty.yml/badge.svg)
 ![Issue](https://img.shields.io/github/issues/pscedu/singularity-bcftools)
 ![forks](https://img.shields.io/github/forks/pscedu/singularity-bcftools)
 ![Stars](https://img.shields.io/github/stars/pscedu/singularity-bcftools)
